@@ -1127,9 +1127,10 @@ input:hover {
 .box66:hover{
    text-decoration: underline;
 }
-.box65 {
+.box73 {
     margin: 0px 0px 0px 111px;
-    
+    height: 5vh;
+    width: 15vw;
 }
 .box67 {
     position: absolute;
@@ -1177,4 +1178,86 @@ input:hover {
     height: 22px;
     width: 22px;
     filter: invert(0);
+}
+.box70{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 700px;
+    top: -10px;
+    height: 47px;
+    width: 47px;
+    border-radius: 100px;
+    background-color: rgb(248, 251, 249);
+    transform: translateY(15px);
+    transition: transform 0.125s ease-in, opacity 0.125s ;
+}
+.box70 img{
+    height: 20px;
+    width: 20px;
+}
+.pause-img {
+    display: none;
+    height: 20px;
+    width: 20px;
+}
+.box69 {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    left: 660px;
+    top: 15px;
+}
+.box69 img{
+    height: 24px;
+    width: 24px;
+    filter: invert(1);
+    transform: rotate(180deg);
+}
+.box71 {
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    left: 765px;
+    top: 15px;
+}
+.box71 img{
+    height: 24px;
+    width: 24px;
+    filter: invert(1);
+}
+.volume {
+    width: 70px;
+    position: absolute;
+    left: 970px;
+    top: -15px;
+    accent-color: white;
+}
+.box72{
+    height: 24px;
+    width: 24px;
+    filter: invert(1);
+    position: absolute;
+    left: 940px;
+    top: 0px;
+}
+.progress{
+    width: 11vw;
+    position: absolute;
+    left: 920px;
+    top: 20px;
+    accent-color: white;
+}
+.current-time{
+    position: absolute;
+    left: 880px;
+    top: 36px;
+    color: white;
+}
+.duration{
+    position: absolute;
+    left: 1190px;
+    top: 36px;
+    color: white;
 }

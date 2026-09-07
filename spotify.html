@@ -8,7 +8,7 @@
 </head>
 <body>
 <link rel="stylesheet" href="spotify.css">
-<script src="spotify.js"></script>
+<script src="spotify.js" defer></script>
     <nav>
         <a href="https://open.spotify.com/"><img src="spot.png"/></a>
         <a href="https://open.spotify.com/"><img class="home" src="home.png"/></a>
@@ -250,16 +250,36 @@
         </div>
     </div>
     <div class="box62">
-    <img class="box63" src="" alt="">
+    <img class="box63" >
    <div>
     <div class="box64"></div>
      <div class="box66"></div>
     </div>
-     <audio class="box65" controls></audio>
-   </div> 
+     <div class="box65">
+    <div class="box69">
+        <img src="next.webp">
+    </div>
+    <div class="box70">
+        <img class="play-img" src="play.png">
+        <img class="pause-img" src="pause.webp">
+    </div>
+    <div class="box71">
+        <img src="next.webp">
+    </div>
+</div>
+<img class="box72" src="volume-02.webp"/>
+<div>
+    <input type="range" class="volume" min="0" max="1" step="0.01" value="1">
+</div>
+<div class="box74">
+    <span class="current-time">0:00</span>
+    <input type="range" class="progress" value="0" min="0" max="100">
+    <span class="duration">0:00</span>
+</div>
+<audio class="box73"></audio>
+    </div>
    <div class="box67"><img class="eft" src="arr.png"/></div>
    <div class="box68"><img class="right" src="arr.png"/></div>
-    
 </body>
 </html>
 
